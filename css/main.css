@@ -1,0 +1,20 @@
+
+:root {
+    --pink-color: hsl(322, 100%, 66%);
+    --pale-cyan: hsl(193, 100%, 96%);
+    --dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+    --white-color: hsl(100, 100%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.125rem;
+    background-color: var(--white-color);
+    font-family: 'Open Sans', sans-serif;
+}
