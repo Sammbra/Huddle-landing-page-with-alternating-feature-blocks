@@ -10,7 +10,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-
 </head>
 <body>
   <header>
@@ -30,77 +29,81 @@
     </div>
   </header>
   <main>
-    <section class="card">
-      <div class="card__text">
-        <h3 class="card__heading">Grow Together</h3>
-        <p class="card__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
-      </div>
-      <div class="card__image"> <img src="images/illustration-grow-together.svg" alt=""></div>
-    </section>
+    <div class="main-container">
+      <section class="card">
+        <div class="card__text">
+          <h3 class="card__heading">Grow Together</h3>
+          <p class="card__paragraph">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="card__image-container"><img src="images/illustration-grow-together.svg" class="card__image" alt=""></div>
+      </section>
 
-    <section class="card card-middle">
-      <div class="card-text">
-        <h3 class="card__heading">Flowing Conversations</h3>
-        <p class="card__paragraph"> You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
-      </div>
-      <div class="card__image"> <img src="images/illustration-flowing-conversation.svg" alt=""></div>
-    </section>
+      <section class="card card-middle">
+        <div class="card-middle__text">
+          <h3 class="card-middle__heading">Flowing Conversations</h3>
+          <p class="card-middle__paragraph"> You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+        <div class="card-middle__image-container"><img src="images/illustration-flowing-conversation.svg" class="card__image" alt=""></div>
+      </section>
 
-    <section class="card">
-      <div class="card__text">
-        <h3 class="card__heading">Your Users</h3>
-        <p class="card__paragraph"> It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
-      </div>
-      <div class="card__image"> <img src="images/illustration-your-users.svg" alt=""></div>
-    </section>
+      <section class="card">
+        <div class="card__text">
+          <h3 class="card__heading">Your Users</h3>
+          <p class="card__paragraph"> It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div class="card__image-container"><img src="images/illustration-your-users.svg" class="card__image" alt=""></div>
+      </section>
 
-    <section class="flowing-card">
-      <h2 class="flowing-card__heading">Ready To Build Your Community?</h2>
-      <a href="#" class="flowing-card__btn">Get Started For Free</a>
-    </section>
+      <section class="flowing-card">
+        <h2 class="flowing-card__heading">Ready To Build Your Community?</h2>
+        <a href="#" class="flowing-card__btn">Get Started For Free</a>
+      </section>
+    </div>
   </main>
   <footer>
-    <section class="footer-top">
-      <img src="images/logo.svg" alt="">
-    </section>
-    <section class="footer-left">
-      <div class="footer-left__location">
-        <img class="footer-left__location-icon" src="images/icon-location.svg" alt="">
-        <p class="footer-left__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-      </div>
-      <div class="footer-left__number">
-        <img class="footer-left__number-icon" src="images/icon-phone.svg" alt="">
-        <p class="footer-left__phone-number">+1-543-123-4567</p>
-      </div>
-      <div class="footer-left_mail">
-        <img class="footer-left__mail-icon" src="images/icon-email.svg" alt="">
-        <p class="footer-left__email">example@huddle.com</p>
-      </div>
-    </section>
-    <section class="footer-middle">
-      <ul class="footer-middle__ul">
-        <li class="footer-middle__list">About Us</li>
-        <li class="footer-middle__list">What We Do</li>
-        <li class="footer-middle__list">FAQ</li>
-      </ul>
-      <ul class="footer-middle_ul">
-        <li class="footer-middle__list">Career</li>
-        <li class="footer-middle__list">Blog</li>
-        <li class="footer-middle__list">Contact Us</li>
-      </ul>
-    </section>
-    <section class="footer-right">
-      <i class="footer-right__face fab fa-facebook-f"></i>
-      <i class="footer-right__twitter fab fa-twitter"></i>
-      <i class="footer-right__insta fab fa-instagram"></i>
-    </section>
-    <section class="footer-bot">
-      <p class="footer-bot__info">&copy; Copyright 2018 Huddle. All rights reserved.</p>
-      <p class="footer-bot__attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Your Name Here</a>.
-      </p>
-    </section>
+    <div class="footer-container">
+      <section class="footer-top">
+        <img src="images/logo.svg" alt="">
+      </section>
+      <section class="footer-left">
+        <div class="footer-left__location">
+          <img class="footer-left__location-icon" src="images/icon-location.svg" alt="">
+          <p class="footer-left__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        </div>
+        <div class="footer-left__number">
+          <img class="footer-left__number-icon" src="images/icon-phone.svg" alt="">
+          <p class="footer-left__phone-number">+1-543-123-4567</p>
+        </div>
+        <div class="footer-left_mail">
+          <img class="footer-left__mail-icon" src="images/icon-email.svg" alt="">
+          <p class="footer-left__email">example@huddle.com</p>
+        </div>
+      </section>
+      <section class="footer-middle">
+        <ul class="footer-middle__ul">
+          <li class="footer-middle__list">About Us</li>
+          <li class="footer-middle__list">What We Do</li>
+          <li class="footer-middle__list">FAQ</li>
+        </ul>
+        <ul class="footer-middle_ul">
+          <li class="footer-middle__list">Career</li>
+          <li class="footer-middle__list">Blog</li>
+          <li class="footer-middle__list">Contact Us</li>
+        </ul>
+      </section>
+      <section class="footer-right">
+        <i class="footer-right__face fab fa-facebook-f"></i>
+        <i class="footer-right__twitter fab fa-twitter"></i>
+        <i class="footer-right__insta fab fa-instagram"></i>
+      </section>
+      <section class="footer-bot">
+        <p class="footer-bot__info">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+        <p class="footer-bot__attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Your Name Here</a>.
+        </p>
+      </section>
+  </div>
   </footer>
 </body>
 </html>
