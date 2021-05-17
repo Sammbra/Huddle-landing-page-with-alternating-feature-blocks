@@ -50,7 +50,7 @@
     }
 
     .main-container {
-        padding: 4.3rem 2rem;
+        padding: 4.3rem 2rem 0rem 2rem;
         max-width: 1000px;
         gap: 3rem;
     }
@@ -91,7 +91,7 @@
     .flowing-card {
         width: 25rem;
         padding: 3.3rem 1rem;
-        transform: translateY(6rem);
+        transform: translateY(5rem);
     }
 
     .flowing-card__heading {
@@ -103,6 +103,37 @@
         padding: 1rem 4rem;
     }
 
-    
+    .footer-container {
+        padding: 10.5rem 2rem 1rem 2rem;
+    }
 
+    .footer-container__flex {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+    }
+
+    .footer-left__paragraph {
+        font-size: 1.2rem;
+    }
+
+    .footer-middle__a {
+        padding-left: 0;
+        margin-top: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .footer-middle__b {
+        padding-left: 0;
+        font-size: 1.3rem;
+    }
+
+    .footer-right {
+        padding: 4.5rem 0 1rem 0;
+        text-align: center;
+    }
+
+    .footer-bot__info {
+        text-align: center;
+    }
+    
 }
