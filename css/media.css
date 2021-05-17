@@ -1,0 +1,50 @@
+@media(max-width: 1000px) {
+    header::before {
+        background: url('../images/bg-hero-mobile.svg'), var(--pale-cyan);
+    }
+
+    .header-container {
+        padding: 2rem 1.5rem;
+        max-width: 600px;
+    }
+
+    .header__logo {
+        height: 1.25rem;
+        margin-top: 0.3rem;
+    }
+
+    .header__btn {
+        padding: 0.3rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .hero {
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+
+    .hero__text-container {
+        margin-top: 5.7rem;
+        text-align: center;
+    }
+
+    .hero__heading {
+        font-size: 1.9rem;
+    }
+
+    .hero__paragraph {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+    }
+
+    .hero__btn {
+        padding: 0.9rem 5rem;
+        font-size: 0.9rem;
+    }
+
+    .hero__image {
+        width: 380px;
+    }
+}
